@@ -1,0 +1,19 @@
+name: Bug report
+description: Report a problem in an AKATSUKI SMP project.
+title: "[Bug]: "
+labels: []
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: Explain what happened.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. ... 2. ... 3. ..."
+    validations:
+      required: true
